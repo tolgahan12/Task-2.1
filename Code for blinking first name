@@ -1,0 +1,121 @@
+
+int led1 = D0; 
+
+int led2 = D7;
+
+void setup() {
+
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+
+}
+
+void loop() {
+  // To blink the LED, first we'll turn it on...
+  //t
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(500);
+
+  // Then we'll turn it off...
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  // Wait 1 second...
+  delay(500);
+
+  //o
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  // We'll leave it on for 1 second...
+  delay(1500);
+  
+  // Then we'll turn it off...
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+  
+   delay(500);
+
+  //L
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(2000);
+
+  // Then we'll turn it off...
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  // Wait 1 second...
+  delay(500);
+  
+  //g
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(1200);
+
+  // Then we'll turn it off...
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  // Wait 1 second...
+  delay(500);
+  
+   //a
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+ 
+  delay(400);
+
+  // Then we'll turn it off...
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  // Wait 1 second...
+  delay(500);
+  
+   //h
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+ 
+  delay(1000);
+
+  // Then we'll turn it off...
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  // Wait 1 second...
+  delay(500);
+  
+  //a
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+  
+  delay(400);
+
+  // Then we'll turn it off...
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  // Wait 1 second...
+  delay(500);
+  
+   //n
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+  
+  delay(450);
+
+  // Then we'll turn it off...
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  // Wait 1 second...
+  delay(500);
+  
+  
+}
+
