@@ -1,6 +1,3 @@
-
-int led1 = D0; 
-
 int led2 = D7;
 
 void setup() {
@@ -13,109 +10,165 @@ void setup() {
 void loop() {
   // To blink the LED, first we'll turn it on...
   //t
-  digitalWrite(led1, HIGH);
+  //turn on
   digitalWrite(led2, HIGH);
-
-  delay(500);
-
-  // Then we'll turn it off...
-  digitalWrite(led1, LOW);
+  delay(3000);
+  //turn off
   digitalWrite(led2, LOW);
-
-  // Wait 1 second...
-  delay(500);
-
-  //o
-  digitalWrite(led1, HIGH);
-  digitalWrite(led2, HIGH);
-
-  // We'll leave it on for 1 second...
-  delay(1500);
-  
-  // Then we'll turn it off...
-  digitalWrite(led1, LOW);
-  digitalWrite(led2, LOW);
-  
-   delay(500);
-
-  //L
-  digitalWrite(led1, HIGH);
-  digitalWrite(led2, HIGH);
-
   delay(2000);
 
-  // Then we'll turn it off...
-  digitalWrite(led1, LOW);
+  //o
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(3000);
+  //turn off
   digitalWrite(led2, LOW);
-
-  // Wait 1 second...
-  delay(500);
+  delay(1500);
+    
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(3000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(1500);
+  
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(3000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(2000);
+  
+  
+  //L
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(1000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(1500);
+  
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(3000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(1500);
+  
+  digitalWrite(led2, HIGH);
+  delay(1000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(1500);
+  
+  digitalWrite(led2, HIGH);
+  delay(1000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(2000);
+  
   
   //g
-  digitalWrite(led1, HIGH);
+  //turn on
   digitalWrite(led2, HIGH);
-
-  delay(1200);
-
-  // Then we'll turn it off...
-  digitalWrite(led1, LOW);
+  delay(3000);
+  //turn off
   digitalWrite(led2, LOW);
-
-  // Wait 1 second...
-  delay(500);
+  delay(1500);
   
-   //a
-  digitalWrite(led1, HIGH);
+  //turn on
   digitalWrite(led2, HIGH);
- 
-  delay(400);
-
-  // Then we'll turn it off...
-  digitalWrite(led1, LOW);
+  delay(3000);
+  //turn off
   digitalWrite(led2, LOW);
-
-  // Wait 1 second...
-  delay(500);
+  delay(1500);
   
-   //h
-  digitalWrite(led1, HIGH);
+  //turn on
   digitalWrite(led2, HIGH);
- 
   delay(1000);
-
-  // Then we'll turn it off...
-  digitalWrite(led1, LOW);
+  //turn off
   digitalWrite(led2, LOW);
-
-  // Wait 1 second...
-  delay(500);
+  delay(2000);
+  
+  
   
   //a
-  digitalWrite(led1, HIGH);
+  //turn on
   digitalWrite(led2, HIGH);
-  
-  delay(400);
-
-  // Then we'll turn it off...
-  digitalWrite(led1, LOW);
+  delay(1000);
+  //turn off
   digitalWrite(led2, LOW);
-
-  // Wait 1 second...
-  delay(500);
+  delay(1500);
   
-   //n
-  digitalWrite(led1, HIGH);
+  //turn on
   digitalWrite(led2, HIGH);
-  
-  delay(450);
-
-  // Then we'll turn it off...
-  digitalWrite(led1, LOW);
+  delay(3000);
+  //turn off
   digitalWrite(led2, LOW);
-
-  // Wait 1 second...
-  delay(500);
+  delay(2000);
   
+  
+  
+  
+  //h
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(1000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(1500);
+  
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(1000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(1500);  
+  
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(3000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(1500);  
+
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(1000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(2000);
+  
+  
+  //a
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(1000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(1500);  
+  
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(3000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(2000);  
+  
+  //n
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(3000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(1500);  
+  
+  //turn on
+  digitalWrite(led2, HIGH);
+  delay(1000);
+  //turn off
+  digitalWrite(led2, LOW);
+  delay(10000);  
   
 }
 
